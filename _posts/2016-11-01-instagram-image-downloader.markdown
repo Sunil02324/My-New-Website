@@ -1,7 +1,7 @@
 ---
 title: "Instagram Image Downloader"
 layout: post
-date: 2016-11-01 22:50
+date: 2016-02-21 22:50
 image: /assets/images/posts/instagram1.jpg
 headerImage: true
 tag:
@@ -49,3 +49,6 @@ python insta.py -f /home/username/filelist.txt
 ---
 
 ### Source on Github : [Instagram Image Downloader](https://github.com/Sunil02324/Instagram-Image-Downloader)
+
+
+Please comment your views/suggestions below.

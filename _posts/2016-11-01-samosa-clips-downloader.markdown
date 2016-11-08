@@ -1,7 +1,7 @@
 ---
 title: "Samosa Clips Auto Downloader"
 layout: post
-date: 2016-11-01 22:48
+date: 2016-03-04 22:48
 image: /assets/images/posts/samosa1.png
 headerImage: false
 tag:
@@ -43,3 +43,6 @@ To avoid any unneccessary attention and blockage, I made the script to run every
 ---
 
 ### Source on Github : [Samosa Clips Auto Downloader](https://github.com/Sunil02324/Samosa-Clips-Auto-Downloader)
+
+
+Please comment your views/suggestions below.
