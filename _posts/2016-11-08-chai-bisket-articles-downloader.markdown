@@ -18,3 +18,7 @@ I want to make this blog short. Being a regular follower of Chai-Bisket I always
 Initially I thought of writing a python script to download them but later changed my mind and made a chrome extension which creates a "Download" button in the articles.
 
 <img class="image" src="{{ site.url }}/assets/images/posts/chaibisket1.png" alt="Alt Text">
+
+
+
+Please comment your views/suggestions below.
