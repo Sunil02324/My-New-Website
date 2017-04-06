@@ -29,41 +29,41 @@ Now its time to do some scraping :
 
 Import all required libraries into our file.
 
-`
+```python
 from apiclient.discovery import build
 from apiclient.errors import HttpError
 from oauth2client.tools import argparser
 import pafy
 import csv
-`
+```
 
 Now its time to add our developers key and build youtube.
 
-`
+```python
 DEVELOPER_KEY = "#AddYourDeveloperKey"
 YOUTUBE_API_SERVICE_NAME = "youtube"
 YOUTUBE_API_VERSION = "v3"
 pafy.set_api_key("#AddYourAPIKey")
 
 youtube = build(YOUTUBE_API_SERVICE_NAME, YOUTUBE_API_VERSION,developerKey=DEVELOPER_KEY)
-`
+```
 
 We will take the Youtube ID as input and make it into a Perfect Youtube URL.
 
-`
+```python
 videoId = raw_input("ID of youtube video : \n")
 url = "https://www.youtube.com/watch?v=" + videoId
-`
+```
 
 Requesting Metadata from `pafy`
 
-`
+```python
 video = pafy.new(url)
-`
+```
 
 Its time to get all the comments from that Youtube Vdeoa dn save it into an array. Default max results you can get is 100. So if a Video has more than 100 comments we need to iterate the same function to get all the comments.
 
-`
+```python
 results = youtube.commentThreads().list(
 		    part="snippet",
 		    maxResults=100,
@@ -111,23 +111,23 @@ while further:
 			except KeyError, e:
 				print "An KeyError error occurred: %s" % (e)
 				further = False
-`
+```
 
 Now its time to add all the data  to our csv file.
 
-`
+```python
 add_data(videoId,video.title,video.description,video.author,video.published,video.viewcount, video.duration, video.likes, video.dislikes,video.rating,video.category,comments)
-`
+```
 
 Following code is used to add our data into a csv file.
 
-`
+```python
 def add_data(vID,title,description,author,published,viewcount, duration, likes, dislikes,rating,category,comments):
 	data = [vID,title,description,author,published,viewcount, duration, likes, dislikes,rating,category,comments]
 	with open("scraper.csv", "a") as fp:
 	    wr = csv.writer(fp, dialect='excel')
 	    wr.writerow(data)
-`
+```
 
 This way we can get all the data and comments of a youtube video.
 
@@ -135,7 +135,7 @@ Now a simple extension of this script is to get all the data of top 10 search re
 
 For this I take the search term as input and then called YoutubeAPI for the search results. From that results I would just take the top 10 videoIDS and call the above script to get all required data.
 
-`
+```python
 searchTerm = raw_input("Term you want to Search : \n")
 search_response = youtube.search().list(
       q=searchTerm,
@@ -153,7 +153,7 @@ for search_result in search_response.get("items", []):
 	    	break
     else:
     	continue
-`
+```
 
 
 You can checkout the full scripts in this repo [here](https://github.com/Sunil02324/Youtube-Meta-Data-Comments-Scraper). Fork it or Star if you like it. 
