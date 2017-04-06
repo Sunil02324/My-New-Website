@@ -33,3 +33,5 @@ Below is the output of the script :
 <img class="image" src="{{ site.url }}/assets/images/posts/mit1.png" alt="Alt Text" style="display:block;margin:0 auto;">
 
 ----
+
+You can checkout the repo [here](https://github.com/Sunil02324/MIT-OpenCourseWare-Scraper). Fork it or Star if you like it. 
