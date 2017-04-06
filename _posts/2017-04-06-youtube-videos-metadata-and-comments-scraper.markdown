@@ -2,8 +2,8 @@
 title: "Youtube Videos Metadata & Comments Scraper"
 layout: post
 date: 2017-04-05 12:48
-image: /assets/images/posts/mit1.png
-headerImage: false
+image: /assets/images/posts/youtube.png
+headerImage: true
 tag:
 - python
 - requests
