@@ -155,5 +155,6 @@ for search_result in search_response.get("items", []):
     	continue
 ```
  
+ You can checkout the full scripts in this repo [here](https://github.com/Sunil02324/Youtube-Meta-Data-Comments-Scraper). Fork it or Star if you like it. 
 
 You can mail me at <a href="mailto:sunil@suniltatipelly.in">sunil@suniltatipelly.in</a> for any queries or doubts regarding this.
