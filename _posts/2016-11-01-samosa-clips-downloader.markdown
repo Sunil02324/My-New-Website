@@ -7,7 +7,7 @@ headerImage: false
 tag:
 - python
 - requests
-- chai-bisket
+- samosa
 blog: true
 author: suniltatipelly
 description: Python Script to Download all Audio Clips and Movie Dialogues from getsamosa.in
