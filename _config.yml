@@ -1,9 +1,9 @@
 # main text of home
 name: Sunil Tatipelly
-bio: Supposedly Engineer. Major Geek. Food Freak.Pythonoholic. Proud IITian. Quirkyalone.
+bio: Supposedly Engineer. Major Geek. Food Freak. Proud IITian. Quirkyalone.
 
 # twitter summary info
-description: Supposedly Engineer. Major Geek. Food Freak.Pythonoholic. Proud IITian. Quirkyalone.
+description: Supposedly Engineer. Major Geek. Food Freak. Proud IITian. Quirkyalone.
 
 # if it's an external image, update below for true
 # better with square images
@@ -48,7 +48,7 @@ email: sunil@suniltatipelly.in
 authors:
     suniltatipelly:
         name: Sunil Tatipelly
-        bio: Supposedly Engineer. Major Geek. Food Freak.Pythonoholic. Proud IITian. Quirkyalone.
+        bio: Supposedly Engineer. Major Geek. Food Freak. Proud IITian. Quirkyalone.
         external-image: false
         picture: assets/images/profile.jpg
         twitter: suniltatipelly
