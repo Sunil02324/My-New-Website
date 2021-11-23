@@ -1,9 +1,9 @@
 # main text of home
 name: Sunil Tatipelly
-bio: Supposedly Engineer. Major Geek. Food Freak.Pythonoholic. Proud IITian.
+bio: Supposedly Engineer. Major Geek. Food Freak.Pythonoholic. Proud IITian. Quirkyalone.
 
 # twitter summary info
-description: Supposedly Engineer. Major Geek. Food Freak.Pythonoholic. Proud IITian.
+description: Supposedly Engineer. Major Geek. Food Freak.Pythonoholic. Proud IITian. Quirkyalone.
 
 # if it's an external image, update below for true
 # better with square images
@@ -31,7 +31,7 @@ disqus: suniltatipelly
 # if you don't have any of social below, comment the line
 facebook: sunil.tatipelly
 twitter: suniltatipelly
-google: suniltatipelly1
+#google: suniltatipelly1
 instagram: suniltatipelly
 # pinterest: mypinterest
 linkedin: suniltatipelly
@@ -39,7 +39,7 @@ linkedin: suniltatipelly
 #spotify: myspotify
 github: Sunil02324
 stackoverflow: 4679396/sunil-tatipelly
-quora: Sunil-Tatipelly-1
+#quora: Sunil-Tatipelly-1
 #reddit: username
 #medium: medium
 #vimeo: myvimeo
@@ -48,7 +48,7 @@ email: sunil@suniltatipelly.in
 authors:
     suniltatipelly:
         name: Sunil Tatipelly
-        bio: Supposedly Engineer. Major Geek. Food Freak.Pythonoholic. Proud IITian.
+        bio: Supposedly Engineer. Major Geek. Food Freak.Pythonoholic. Proud IITian. Quirkyalone.
         external-image: false
         picture: assets/images/profile.jpg
         twitter: suniltatipelly
