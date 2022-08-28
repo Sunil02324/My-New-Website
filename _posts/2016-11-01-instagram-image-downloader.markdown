@@ -13,7 +13,7 @@ author: suniltatipelly
 description: Python Script to Download Images from Instagram
 ---
 
-My friend [Ravi Teja](https://www.facebook.com/muskudiravi.teja) has a very bad habit of stalking people on Instagram. You can find him online all the time in Instagram. One day he came to me and asked to write code to download the images from instagram.
+My friend has a very bad habit of stalking people on Instagram. You can find him online all the time in Instagram. One day he came to me and asked to write code to download the images from instagram.
 
 I have gone through the source code of instagram and seen that the images are loaded in same way in all pages. So I used BeautifulSoup (bs4) in python to extract the image url from the given post url. I have also added some functionalities like downloading images from various Urls single time, specifing download location.
 
